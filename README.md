@@ -12,12 +12,14 @@ This is a single-page application that meets the PWA criteria.
 
 ## Installation or Use
 In able to execute the text editor, you will have to `git clone` the repository into your local storage. This will enable you to access all the files locally.
+<br>
+[GitHub Link](https://github.com/itsDenMat/text_editor)
 
 * Run `npm install` in order to have npm package dependencies installed.
     * The text editor will start once the user enters `npm start` in the command line.
     * Once the server is running, user will be able to access the text editor throught `http://localhost:3001`
 
-* Another way to use this application is through the herokue link bellow:
+* Another way to use this application is through the heroku link bellow:
 <br>
 [JATE Text Editor](https://denmat-text-editor.herokuapp.com/)
 
@@ -30,10 +32,23 @@ User will be able to do the following:
 > User will be able to install the application and have it downloaded as an icon on the desktop.
 
 ## Demo
-* Installing and running application
-* Basic functionality of texts
-* Installation of application
+* Installing and running application.
+<img src="assets/JATE_run.gif">
+
+* Basic functionality of texts.
+<img src="assets/JATE_function.gif">
+
+* Installation of application.
+<img src="assets/JATE_install.gif">
+
 * Text remains in the text editor application after closing and reopening.
+<img src="assets/JATE_logback.gif">
+
+* Application's `manifest.json` file.
+<img src="assets/JATE_manifest.png">
+
+* Application's registered service worker
+<img src="assets/Jate_service_worker.png">
 
 
 
